@@ -1601,3 +1601,10 @@ p.form-message.error {
           cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
+.showcase-area {
+  .single-showcase {
+    img {
+    max-height: 661px;
+    }
+  }
+}
