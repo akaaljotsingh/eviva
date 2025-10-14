@@ -1608,3 +1608,24 @@ p.form-message.error {
     }
   }
 }
+
+.contact-area.contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;    padding-top: 35px;
+}
+
+.contact-area.contact-box img {
+  max-width: 250px !important;
+  width: 100%;
+}
+
+@media (max-width: 992px) { /* lg breakpoint */
+.contact-area.contact-box {
+  display: block;
+}
+
+.contact-area.contact-box img {
+  max-width: 100% !important;
+}
+}
